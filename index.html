@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/peerjs@1.5.4/dist/peerjs.min.js"></script>
+</head>
+<body>
+    <div>
+        <h2>ID:</h2>
+        <span id="idSpan"></span>
+    </div>
+    <div>
+        <button id="connectButton">Connect</button>
+        <input type="text" id="connectInput" placeholder="Enter connection details">
+        <span id="connectionStatus"></span>
+    </div>
+    <div>
+        <button id="sendButton" disabled>Send</button>
+        <input type="text" id="sendInput" placeholder="Enter a message" disabled> 
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
